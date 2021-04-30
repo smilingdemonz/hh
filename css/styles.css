@@ -1,0 +1,171 @@
+
+body{
+ font-family: "Montserrat";
+  text-align: center;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-bold";
+}
+
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+P{
+  color: #afafaf;
+}
+/* headings */
+.big-heading{
+  font-family: 'Montserrat-black', sans-serif  ;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5 ;
+}
+#title {
+  background-color: #ff4c68;
+  color: #FFF;
+}
+
+.container-fluid{
+  padding: 3% 15%  5%  }
+
+/* NOTIFICATION BAR */
+
+.NAVBAR{
+  padding : 0 0 4.5REM;
+}
+.NAVBAR-BRAND{
+  font-family: "UBUNTU";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.NAV-item{
+  padding: 0 18px 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+/* download button */
+.download-button{
+  margin : 5% 3% 5% 0;
+}
+/* title image */
+.a{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+   left: 100px;
+}
+
+
+
+ @media (max-width:1028px) {
+   #title{
+     text-align: center;
+   }
+   .a{
+    position: static;
+    transform: rotate(360deg);
+    text-align: center;
+   }
+ }
+
+/* feature */
+#features {
+padding: 7% 15%  ;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+   font-size: 1.5rem;
+}
+.feature-box{
+
+  padding: 5%;
+
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ffc468;
+}
+
+/* testimonials section */
+#testimonials{
+
+background-color: #ef8172;
+color: #fff;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5 ;
+}
+.carousel-item{
+  padding: 7%  15%;
+}
+.dog-profile-pic{
+  margin: 20px 20px 20px 20px;
+width: 10%;
+border-radius: 100%;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+
+padding-bottom: 3%
+}
+.press-logo{
+
+margin:20px 20px;
+
+}
+
+/* pricing  */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-column{
+
+}
+.price-text{
+   font-size: 3rem;
+   line-height: 1.5rem;
+}
+
+/* footer */
+#footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: #fff;
+}
+.new{
+  margin: auto 5px auto 5px;
+}
+.new:hover{
+  color: #3edbf0;
+}
+/* above footer */
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+   
+
+  color: #fff;
+
+}
+.download-2{
+  margin-top: 30px;
+}
